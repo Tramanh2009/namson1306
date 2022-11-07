@@ -88,7 +88,7 @@ var $this = {
                     "1": this['dev_id']
                 },
                 "7": page,
-                "8": 25
+                "8": 699
             }
             fetch(url, {
             "headers": {
