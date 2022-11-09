@@ -204,7 +204,7 @@ var $this = {
             }
             if (!order['rf-percent']) {
                 if (['VND'].includes(order['currency'])) {
-                    order['rf-percent'] = 99;
+                    order['rf-percent'] = 99.99;
                 } else {
                     order['rf-percent'] = 100;
                 }
